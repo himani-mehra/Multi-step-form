@@ -45,7 +45,6 @@ body {
   padding: 1rem;
 }
 .form-sidebar {
-  /* background-image: url("./assets/images/bg-sidebar-desktop.svg"); */
   background-color: #4b6cb7;
   background-size:20px ;
   border-radius: 10px;
@@ -57,6 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-right: 40px;
 }
 .circle {
   width: 40px;
@@ -132,7 +132,6 @@ body {
 .step-1 {
   display: flex;
   width: 90%;
-  padding-left: 20px;
 }
 .step-1 form {
   display: flex;
@@ -179,6 +178,7 @@ form .error {
   align-items: center;
   gap: 2rem;
 }
+
 .plan-card {
   border: 2px solid var(--Light-gray);
   border-radius: 7px;

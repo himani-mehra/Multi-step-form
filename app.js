@@ -36,6 +36,7 @@ steps.forEach((step) => {
     }
     document.querySelector(`.step-${currentStep}`).style.display = "flex";
     circleSteps[currentCircle].classList.add("active");
+    summary(obj);
   });
 });
 function summary(obj) {
